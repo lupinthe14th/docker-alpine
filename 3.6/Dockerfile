@@ -6,6 +6,7 @@ MAINTAINER Hideo Suzuki <lupinthe14th@gmail.com>
 ENV ALPINE_ARCH x86_64
 ENV ALPINE_VERSION 3.6.2
 
+# http://nl.alpinelinux.org/alpine/v3.6/releases/x86_64/alpine-minirootfs-3.6.2-x86_64.tar.gz
 ADD alpine-minirootfs-${ALPINE_VERSION}-${ALPINE_ARCH}.tar.gz /
 
 # skip installing gem documentation
